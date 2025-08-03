@@ -1,10 +1,29 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+import { StrictMode } from "react";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./shared/routers/Router";
+import { Theme } from "@radix-ui/themes";
+import { ThemeProvider } from "next-themes";
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 2 * 60 * 1000, // 2 minutes
+    },
+  },
+});
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
-)
+    <Theme>
+      <ThemeProvider attribute={"class"}>
+        <QueryClientProvider client={queryClient}>
+          <RouterProvider router={router} />
+          <ReactQueryDevtools initialIsOpen={false} />
+        </QueryClientProvider>
+      </ThemeProvider>
+    </Theme>
+  </StrictMode>
+);
