@@ -1,13 +1,17 @@
 import React from "react";
 import Hero from "../components/Hero";
 import ServiceArea from "../components/ServiceArea";
+import Welcome from "@/components/Welcome";
+import DepartmentComponent from "../components/DepartmentComponent";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Hero />
       <ServiceArea />
-    </div>
+      <Welcome />
+      <DepartmentComponent />
+    </>
   );
 };
 

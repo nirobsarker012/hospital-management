@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "departName": "Eye Care",
+    "image": "https://i.ibb.co/1GmBnJs7/eye-care-5016057-1280.jpg",
+    "description": "Comprehensive eye care services including vision testing, glaucoma treatment, cataract surgery, and LASIK procedures. Our ophthalmologists provide cutting-edge treatments for all eye conditions.",
+    "doctorsCount": 8,
+    "establishedYear": 2010,
+    "services": [
+      "Vision Testing",
+      "Cataract Surgery",
+      "Glaucoma Treatment",
+      "LASIK",
+      "Retina Care"
+    ],
+    "contactEmail": "eyecare@hospital.com",
+    "isEmergencyAvailable": true
+  },
+  {
+    "id": 2,
+    "departName": "Physical Therapy",
+    "image": "https://i.ibb.co/B500kM0S/injury-8668706-1280.jpg",
+    "description": "Specialized rehabilitation services to help patients recover from injuries, surgeries, and chronic conditions. Our therapists create personalized recovery plans using advanced techniques.",
+    "doctorsCount": 12,
+    "establishedYear": 2015,
+    "services": [
+      "Sports Rehabilitation",
+      "Post-Surgical Recovery",
+      "Pain Management",
+      "Neurological Therapy",
+      "Pediatric Therapy"
+    ],
+    "contactEmail": "physicaltherapy@hospital.com",
+    "isEmergencyAvailable": false
+  },
+  {
+    "id": 3,
+    "departName": "Dental Care",
+    "image": "https://i.ibb.co/PzDcQf6w/dentist-2530990-1280.jpg",
+    "description": "Complete dental solutions including preventive, cosmetic, and surgical dentistry. Our dental specialists use state-of-the-art equipment for painless treatments and perfect smiles.",
+    "doctorsCount": 6,
+    "establishedYear": 2008,
+    "services": [
+      "Teeth Cleaning",
+      "Implants",
+      "Orthodontics",
+      "Root Canals",
+      "Oral Surgery"
+    ],
+    "contactEmail": "dental@hospital.com",
+    "isEmergencyAvailable": true
+  },
+  {
+    "id": 4,
+    "departName": "Diagnostic Test",
+    "image": "https://i.ibb.co/7tLhcPyv/lab-2815638-1280.jpg",
+    "description": "Advanced diagnostic imaging and laboratory services for accurate disease detection. Our department features the latest MRI, CT scan, X-ray, and blood testing technologies.",
+    "doctorsCount": 15,
+    "establishedYear": 2012,
+    "services": [
+      "MRI Scans",
+      "CT Scans",
+      "Ultrasound",
+      "Blood Tests",
+      "Biopsies"
+    ],
+    "contactEmail": "diagnostics@hospital.com",
+    "isEmergencyAvailable": true
+  },
+  {
+    "id": 5,
+    "departName": "Skin Surgery",
+    "image": "https://i.ibb.co/jvc7TBC6/surgery-1807541-1280.jpg",
+    "description": "Specialized dermatological surgical procedures for skin cancer, cosmetic enhancements, and reconstructive surgeries. Our dermatologists are experts in minimally invasive techniques.",
+    "doctorsCount": 5,
+    "establishedYear": 2018,
+    "services": [
+      "Skin Cancer Removal",
+      "Cosmetic Surgery",
+      "Laser Treatments",
+      "Scar Revision",
+      "Mohs Surgery"
+    ],
+    "contactEmail": "skinsurgery@hospital.com",
+    "isEmergencyAvailable": false
+  },
+  {
+    "id": 6,
+    "departName": "Surgery Service",
+    "image": "https://i.ibb.co/ycd4tddf/doctor-79579-1280.jpg",
+    "description": "Comprehensive surgical services including general, orthopedic, cardiovascular, and neurosurgery. Our operating theaters are equipped with robotic surgical systems for precision.",
+    "doctorsCount": 20,
+    "establishedYear": 2005,
+    "services": [
+      "General Surgery",
+      "Orthopedic Surgery",
+      "Cardiac Surgery",
+      "Neurosurgery",
+      "Minimally Invasive Surgery"
+    ],
+    "contactEmail": "surgery@hospital.com",
+    "isEmergencyAvailable": true
+  }
+]

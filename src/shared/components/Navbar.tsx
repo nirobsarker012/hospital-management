@@ -78,7 +78,7 @@ const Navbar: React.FC = () => {
       </nav>
 
       {/* Main header/nav */}
-      <header className="bg-white py-4 sticky top-0 z-30">
+      <header className="bg-white shadow-md py-4 sticky top-0 z-30">
         <div className="flex items-center justify-between container">
           {/* Logo */}
           <div className="flex items-center gap-x-1.5">
