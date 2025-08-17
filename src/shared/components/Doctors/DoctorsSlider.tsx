@@ -27,7 +27,7 @@ const DoctorsSlider: React.FC = () => {
   if (error) return <p>Something went wrong</p>;
 
   return (
-    <div className="w-full px-6 py-12 relative">
+    <div className="w-full py-12 relative container">
       <div className="flex items-center justify-between mb-6">
         <h2 className="text-3xl font-bold">Expert Doctors</h2>
 

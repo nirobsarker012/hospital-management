@@ -4,6 +4,7 @@ import Welcome from "@/shared/components/Welcome";
 import DepartmentComponent from "../../components/DepartmentComponent";
 import ChooseComponent from "../../components/OurChoose";
 import AllDoctorSlider from "@/shared/components/Doctors/AllDoctorSlider";
+import EmegencyMedicalCare from "@/shared/components/Emergency/EmegencyMedicalCare";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <DepartmentComponent />
       <ChooseComponent />
       <AllDoctorSlider />
+      <EmegencyMedicalCare />
     </>
   );
 };
