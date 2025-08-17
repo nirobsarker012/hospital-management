@@ -5,6 +5,8 @@ import DepartmentComponent from "../../components/DepartmentComponent";
 import ChooseComponent from "../../components/OurChoose";
 import AllDoctorSlider from "@/shared/components/Doctors/AllDoctorSlider";
 import EmegencyMedicalCare from "@/shared/components/Emergency/EmegencyMedicalCare";
+import InsuranceMarquee from "@/shared/components/ui/InsuranceMarquee";
+// import InsurenceProvider from "@/shared/components/InsuranceProvider/InsurenceProvider";
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
       <ChooseComponent />
       <AllDoctorSlider />
       <EmegencyMedicalCare />
+      {/* <InsurenceProvider /> */}
+      <InsuranceMarquee />
     </>
   );
 };
