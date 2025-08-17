@@ -24,7 +24,7 @@ createRoot(document.getElementById("root")!).render(
     <Theme>
       <ThemeProvider attribute={"class"}>
         <QueryClientProvider client={queryClient}>
-          <div className="bg-[#efede9]">
+          <div className="">
             <RouterProvider router={router} />
           </div>
           <ReactQueryDevtools initialIsOpen={false} />

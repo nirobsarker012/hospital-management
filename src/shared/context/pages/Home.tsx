@@ -3,6 +3,7 @@ import ServiceArea from "../../components/ServiceArea";
 import Welcome from "@/shared/components/Welcome";
 import DepartmentComponent from "../../components/DepartmentComponent";
 import ChooseComponent from "../../components/OurChoose";
+import AllDoctorSlider from "@/shared/components/Doctors/AllDoctorSlider";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Welcome />
       <DepartmentComponent />
       <ChooseComponent />
+      <AllDoctorSlider />
     </>
   );
 };

@@ -30,8 +30,6 @@ const DepartmentComponent: React.FC = () => {
     };
     fecthDepartments();
   }, []);
-
-  console.log(departments);
   return (
     <div className="bg-[#f5fbff] py-24 lg:py-32">
       <div className="flex flex-col justify-between items-center space-y-2.5">
