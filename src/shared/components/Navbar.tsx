@@ -47,6 +47,7 @@ const Navbar: React.FC = () => {
     setActiveSection(path);
     setIsOpen(false);
   };
+  console.log(activeSection);
 
   return (
     <>
