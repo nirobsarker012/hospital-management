@@ -1,6 +1,5 @@
-import React from "react";
-import img_1 from "../assets/doctor_patient_img/doctor-650534_1280.jpg";
-import img_2 from "../assets/doctor_patient_img/doctor-5710153_1280.jpg";
+import img_1 from "../../assets/doctor_patient_img/doctor-650534_1280.jpg";
+import img_2 from "../../assets/doctor_patient_img/doctor-5710153_1280.jpg";
 import { FaRegCircleCheck } from "react-icons/fa6";
 
 const Welcome = () => {
