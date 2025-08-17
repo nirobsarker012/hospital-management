@@ -15,7 +15,7 @@ const Subscribe: React.FC = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="border border-gray-300 p-2 rounded-l bg-amber-50"
+              className="border border-gray-300 p-2 rounded-l bg-amber-50 outline-none"
             />
             <button className="bg-[#013e50] text-white py-2 px-4 rounded-r cursor-pointer">
               Subscribe

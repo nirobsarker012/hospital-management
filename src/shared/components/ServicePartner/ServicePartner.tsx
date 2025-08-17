@@ -29,7 +29,7 @@ const partnersLogo: PartnersLogo[] = [
 ];
 const ServicePartner: React.FC = () => {
   return (
-    <div className="bg-[#F3F4F6] border border-[#013e50] rounded-2xl py-[36px] my-20">
+    <div className="bg-[#F3F4F6] border border-[#013e50] rounded-2xl py-[36px] mt-20 mb-52">
       <div className="flex items-center justify-center">
         <h1 className="text-[28px] lg:text-[48px] font-semibold text-[#013e50] mb-5 lg:mb-8 ub">
           Serive Partners

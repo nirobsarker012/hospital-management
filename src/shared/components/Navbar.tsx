@@ -90,7 +90,7 @@ const Navbar: React.FC = () => {
               width={50}
               height={50}
             />
-            <span className="font-bold text-2xl lg:text-4xl">Mindora</span>
+            <span className="font-bold text-2xl lg:text-4xl">MinDora</span>
           </div>
 
           {/* Navigation links */}

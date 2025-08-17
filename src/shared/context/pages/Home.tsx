@@ -7,7 +7,6 @@ import AllDoctorSlider from "@/shared/components/Doctors/AllDoctorSlider";
 import EmegencyMedicalCare from "@/shared/components/Emergency/EmegencyMedicalCare";
 import InsuranceMarquee from "@/shared/components/ui/InsuranceMarquee";
 import ServicePartner from "@/shared/components/ServicePartner/ServicePartner";
-import Subscribe from "@/shared/components/Subscribe/Subscribe";
 // import InsurenceProvider from "@/shared/components/InsuranceProvider/InsurenceProvider";
 
 const Home = () => {
@@ -22,7 +21,6 @@ const Home = () => {
       <EmegencyMedicalCare />
       <InsuranceMarquee />
       <ServicePartner />
-      <Subscribe />
     </>
   );
 };
