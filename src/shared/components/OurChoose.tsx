@@ -1,6 +1,7 @@
 import React from "react";
 import { CiMedicalCase } from "react-icons/ci";
 import { LuSofa } from "react-icons/lu";
+import { FaArrowRightLong } from "react-icons/fa6";
 import { PiNotepad } from "react-icons/pi";
 import { IoTimerOutline } from "react-icons/io5";
 import img_1 from "../../assets/assets_frontend/blood-test-5906819_1280.jpg";
@@ -39,7 +40,7 @@ const chooseItems: ChooseItems[] = [
   },
 ];
 
-const ChooseComponent = () => {
+const OurChoose = () => {
   return (
     <div className="py-8 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto">
       {/* Header Section */}
@@ -85,8 +86,11 @@ const ChooseComponent = () => {
           <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
         </div>
       </div>
+      <button className="inline-flex items-center gap-1.5 border border-[#013E50] py-2.5 px-6 rounded-[6px] cursor-pointer text-primary font-pop mt-7">
+        Learn More <FaArrowRightLong />
+      </button>
     </div>
   );
 };
 
-export default ChooseComponent;
+export default OurChoose;

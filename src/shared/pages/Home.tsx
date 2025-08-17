@@ -2,7 +2,7 @@ import Hero from "../components/Hero";
 import ServiceArea from "../components/ServiceArea";
 import Welcome from "@/shared/components/Welcome";
 import DepartmentComponent from "../components/DepartmentComponent";
-import ChooseComponent from "../components/ChooseComponent";
+import ChooseComponent from "../components/OurChoose";
 
 const Home = () => {
   return (
