@@ -4,11 +4,11 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import { RouterProvider } from "react-router-dom";
-import { router } from "./shared/routers/Router";
 import { Theme } from "@radix-ui/themes";
 import { ThemeProvider } from "next-themes";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { router } from "./routers/Router";
 
 AOS.init(); // Axios Init
 const queryClient = new QueryClient({

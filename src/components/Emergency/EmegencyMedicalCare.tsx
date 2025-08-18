@@ -1,5 +1,5 @@
 import React from "react";
-import videoBg from "../../../assets/video/doc-prescription.mp4";
+import videoBg from "../../assets/video/doc-prescription.mp4";
 
 const EmegencyMedicalCare: React.FC = () => {
   return (

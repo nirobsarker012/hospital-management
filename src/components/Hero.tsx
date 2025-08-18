@@ -5,9 +5,9 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { FaArrowRightLong, FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import { IoIosStarOutline } from "react-icons/io";
 import { Link } from "react-router-dom";
-import img_1 from "../../assets/Peaceful_img/meditation.jpg";
-import img_2 from "../../assets/Peaceful_img/couple.jpg";
-import img_3 from "../../assets/Peaceful_img/family.jpg";
+import img_1 from "../assets/Peaceful_img/meditation.jpg";
+import img_2 from "../assets/Peaceful_img/couple.jpg";
+import img_3 from "../assets/Peaceful_img/family.jpg";
 import { Swiper as SwiperType } from "swiper";
 
 import "swiper/css";

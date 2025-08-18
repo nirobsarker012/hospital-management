@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { CiLinkedin, CiFacebook } from "react-icons/ci";
 import { FaGooglePlusG, FaPhoneAlt, FaAngleDown } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
-import logo from "../../assets/logo/mindora_logo.svg";
+import logo from "../assets/logo/mindora_logo.svg";
 import { NavLink } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
 

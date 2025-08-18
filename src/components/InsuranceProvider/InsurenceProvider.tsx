@@ -1,25 +1,21 @@
 import React from "react";
-import img_1 from "../../../assets/partnerImg/baxico.jpg";
-import img_2 from "../../../assets/partnerImg/baximco-ph.jpg";
-import img_3 from "../../../assets/partnerImg/bd-bank.png";
-import img_4 from "../../../assets/partnerImg/bd-police.jpg";
-import img_5 from "../../../assets/partnerImg/bgb.jpg";
-import img_6 from "../../../assets/partnerImg/biman-air.jpg";
-import img_7 from "../../../assets/partnerImg/brac-bank.jpg";
-import img_8 from "../../../assets/partnerImg/british-amirican.jpg";
-import img_9 from "../../../assets/partnerImg/estd.jpg";
-import img_10 from "../../../assets/partnerImg/gp.jpg";
-import img_11 from "../../../assets/partnerImg/neslet.jpg";
+// import img_1 from "../../assets/partnerImg/axa.jpg";
+import img_2 from "../../assets/partnerImg/baximco-ph.jpg";
+import img_3 from "../../assets/partnerImg/bd-bank.png";
+import img_4 from "../../assets/partnerImg/bd-police.jpg";
+import img_5 from "../../assets/partnerImg/bgb.jpg";
+import img_6 from "../../assets/partnerImg/biman-air.jpg";
+import img_7 from "../../assets/partnerImg/brac-bank.jpg";
+import img_8 from "../../assets/partnerImg/british-amirican.jpg";
+import img_9 from "../../assets/partnerImg/estd.jpg";
+import img_10 from "../../assets/partnerImg/gp.jpg";
+import img_11 from "../../assets/partnerImg/neslet.jpg";
 
 type provider = {
   id: number;
   icon: string;
 };
 const serviceProvider: provider[] = [
-  {
-    id: 1,
-    icon: img_1,
-  },
   {
     id: 2,
     icon: img_2,

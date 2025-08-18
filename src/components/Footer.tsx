@@ -1,7 +1,7 @@
 import React from "react";
 import { CiFacebook } from "react-icons/ci";
 import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
-import logo from "../../assets/logo/mindora_logo.svg";
+import logo from "../assets/logo/mindora_logo.svg";
 import Subscribe from "./Subscribe/Subscribe";
 
 type SocialIcon = {

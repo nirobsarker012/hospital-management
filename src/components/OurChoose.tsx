@@ -4,7 +4,7 @@ import { LuSofa } from "react-icons/lu";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { PiNotepad } from "react-icons/pi";
 import { IoTimerOutline } from "react-icons/io5";
-import img_1 from "../../assets/assets_frontend/blood-test-5906819_1280.jpg";
+import img_1 from "../assets/assets_frontend/blood-test-5906819_1280.jpg";
 
 interface ChooseItems {
   id: number;

@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/shared/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export function AvatarDemo() {
   return (

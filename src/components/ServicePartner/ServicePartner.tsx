@@ -1,8 +1,8 @@
 import React from "react";
-import img_1 from "../../../assets/partnerImg/aroggo.webp";
-import img_2 from "../../../assets/partnerImg/amarlab.webp";
-import img_3 from "../../../assets/partnerImg/whuc.webp";
-import img_4 from "../../../assets/partnerImg/pure-health.webp";
+import img_1 from "../../assets/partnerImg/aroggo.webp";
+import img_2 from "../../assets/partnerImg/amarlab.webp";
+import img_3 from "../../assets/partnerImg/whuc.webp";
+import img_4 from "../../assets/partnerImg/pure-health.webp";
 
 type PartnersLogo = {
   id?: number;
